@@ -1,0 +1,178 @@
+body {
+	background-image: url(../img/design/back.png);
+}
+.header {
+	width: 100%;
+	height: 38px;
+	background: red;
+}
+.left-menu {
+	width: 20%;
+	height: 500px;
+	float: left;
+	top: 20px;
+	position: relative;
+}
+.content {
+	width: 80%;
+	height: auto;
+	float: right;
+	top: 20px;
+	position: relative;
+}
+.menu {
+	list-style-type: none;
+	width: 100%;
+	margin-top: -0.5%;
+	display: flex;
+	padding: 0;
+	overflow: hidden;
+}
+li a {
+	text-decoration: none;
+	background-color: white;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	transition: 0.5s all;
+	display: block;
+	color: black;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 10px 14% 10px 14%;
+	text-decoration: none;
+}
+.menu > li {
+	width: 16.666666667%;
+}
+li a:hover {
+	color: white;
+	background-color: orange;
+}
+#logout > a:hover {
+	color: white;
+	background-color: red;
+}
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.buttonPos {
+	position: absolute;
+	left: 10%;
+	top: 10px;
+}
+.buttonPas {
+	position: absolute;
+	left: 10%;
+	top: 70px;
+}
+.img {
+	width: 35%;
+	height: auto;
+	left: 1%;
+	top: 40px;
+	position: absolute;
+	float: left;
+}
+.title {
+	position: absolute;
+	left: 40%;
+	width: 40%;
+	text-align: center;
+}
+.description {
+	position: absolute;
+	width: 55%;
+	right: 5%;
+	top: 60px;
+}
+.title-lang {
+	position: absolute;
+	top: 35px;
+	left: 70%;
+}
+.block-content {
+	height: 300px;
+	position: relative;
+	top: -10px;
+}
+.delete-form {
+	position: absolute;
+	left: 70%;
+	top: 190px;
+}
+.edit-form {
+	position: absolute;
+	left: 40%;
+	top: 200px;
+}
+.book {
+	border-style: double;
+	border-color: white;
+	border-width: 1px;
+	position: relative;
+	width: 90%;
+	left: 15px;
+}
+.edit-book {
+	position: absolute;
+	right: 10%;
+	top: 10px;
+}
+.delete-book {
+	position: absolute;
+	right: 1%;
+	top: 10px;
+}
+.name-partner {
+	position: absolute;
+	left: 10%;
+	width: 40%;
+	text-align: center;
+	top: 15px;
+}
+.video {
+	left: 1%;
+	position: absolute;
+	top: 20px;
+}
+.partner {
+	position: relative;
+	width: 90%;
+	border-style: dashed;
+	border-color: white;
+	border-width: 1px;
+	height: 96px;
+}
+.edit-partner {
+	position: absolute;
+	right: 15%;
+	top: 25px;
+}
+.delete-partner {
+	position: absolute;
+	right: 10px;
+	top: 15px;
+}
+.preview {
+	color: rgb(19, 147, 67);
+	font-family: Lucida Console, Monaco, monospace;
+}
+#loginEdit {
+	width: 50%;
+}
+#passEdit {
+	width: 50%;
+}
+.left-menu {
+	z-index: 2;
+}
+.content{
+	z-index: 3;
+}
